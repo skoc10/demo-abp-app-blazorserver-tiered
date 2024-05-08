@@ -96,7 +96,7 @@ public class blazorservertieredAuthServerModule : AbpModule
 
             PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
             {
-                serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "56daa309-fdbb-4645-95ea-dc84a7c91b5d");
+                serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "9e843529-7023-42a8-bba4-76fc28554989");
                 serverBuilder.SetIssuer(new Uri(configuration["AuthServer:Authority"]!));
             });
         }

@@ -10,7 +10,7 @@ services:
     environment:
       - ASPNETCORE_URLS=https://+:443;http://+:80;
       - Kestrel__Certificates__Default__Path=/root/certificate/localhost.pfx
-      - Kestrel__Certificates__Default__Password=2304f8c2-2f39-49ca-9c77-b201f0c1044c
+      - Kestrel__Certificates__Default__Password=f0442807-3ebc-4e31-a839-e3a32a483f17
       - App__SelfUrl=https://localhost:44314
       - AuthServer__RequireHttpsMetadata=false      
       - AuthServer__Authority=https://localhost:44334/
@@ -38,7 +38,7 @@ services:
     environment:
       - ASPNETCORE_URLS=https://+:443;http://+:80;
       - Kestrel__Certificates__Default__Path=/root/certificate/localhost.pfx
-      - Kestrel__Certificates__Default__Password=2304f8c2-2f39-49ca-9c77-b201f0c1044c
+      - Kestrel__Certificates__Default__Password=f0442807-3ebc-4e31-a839-e3a32a483f17
       - App__SelfUrl=https://localhost:44354
       - App__HealthCheckUrl=http://blazorservertiered-api/health-status
       - AuthServer__RequireHttpsMetadata=false
@@ -71,7 +71,7 @@ services:
       - AuthServer__RequireHttpsMetadata=false
       - AuthServer__Authority=https://localhost:44334
       - Kestrel__Certificates__Default__Path=/root/certificate/localhost.pfx
-      - Kestrel__Certificates__Default__Password=2304f8c2-2f39-49ca-9c77-b201f0c1044c
+      - Kestrel__Certificates__Default__Password=f0442807-3ebc-4e31-a839-e3a32a483f17
       - ConnectionStrings__Default=Data Source=sql-server;Initial Catalog=blazorservertiered;User Id=sa;Password=myPassw0rd;MultipleActiveResultSets=true;TrustServerCertificate=True;
       - Redis__Configuration=redis
     ports:

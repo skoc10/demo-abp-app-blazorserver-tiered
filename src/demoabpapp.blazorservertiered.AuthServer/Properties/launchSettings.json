@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://localhost:44366",
-      "sslPort": 44366
+      "applicationUrl": "https://localhost:44399",
+      "sslPort": 44399
     }
   },
   "profiles": {
@@ -18,7 +18,7 @@
     "demoabpapp.blazorservertiered.AuthServer": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:44366",
+      "applicationUrl": "https://localhost:44399",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
